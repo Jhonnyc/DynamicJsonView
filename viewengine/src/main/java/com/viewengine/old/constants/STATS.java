@@ -68,7 +68,7 @@
 //			+    "}"
 //			+ "]";
 //}
-package com.viewengine.old.logic;
+package com.viewengine.old.constants;
 
 public class STATS {
 

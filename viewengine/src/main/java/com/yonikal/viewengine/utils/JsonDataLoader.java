@@ -4,6 +4,7 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.yonikal.viewengine.ViewEngine;
+import com.yonikal.viewengine.temp.StaticFileName;
 
 import org.json.JSONObject;
 
@@ -13,22 +14,6 @@ import org.json.JSONObject;
 public class JsonDataLoader {
 
     private final static String TAG = JsonDataLoader.class.getSimpleName();
-
-    public enum StaticFileName {
-        View("view");
-
-        String mName;
-
-        StaticFileName(String name) {
-            mName = name;
-
-        }
-
-        public String getName() {
-            return mName;
-        }
-
-    }
 
     /**
      * Get the static android json file, in case of success save it as a file for future backup

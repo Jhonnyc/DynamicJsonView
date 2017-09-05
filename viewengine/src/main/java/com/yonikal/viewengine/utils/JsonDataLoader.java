@@ -45,6 +45,7 @@ public class JsonDataLoader {
             public void run() {
                 JSONObject jsonView = null;
                 try {
+                    // TODO: This context comes from the ViewEngine - it should be fixed
                     String data = FileUtils.getFileData(ViewEngine.getInstance().getContext(), StaticFileName.View.getName());
                     if (!TextUtils.isEmpty(data)) {
                         jsonView = new JSONObject(data);

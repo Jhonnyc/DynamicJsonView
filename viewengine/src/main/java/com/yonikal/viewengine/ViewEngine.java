@@ -6,7 +6,6 @@ import android.content.Context;
 /**
  * Created by yoni on 31/08/2017.
  */
-
 public class ViewEngine {
     private static Application sContext;
     private static ViewEngine sInstance;
@@ -15,6 +14,7 @@ public class ViewEngine {
 
     public void init(Application context) {
         sContext = context;
+        sInstance = new ViewEngine();
     }
 
     public static ViewEngine getInstance() {

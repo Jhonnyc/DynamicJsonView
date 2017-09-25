@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DynamicJsonView.iml" filepath="$PROJECT_DIR$/DynamicJsonView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DynamicJsonView.iml" filepath="$PROJECT_DIR$/DynamicJsonView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewengine/viewengine.iml" filepath="$PROJECT_DIR$/viewengine/viewengine.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewengine/viewengine.iml" filepath="$PROJECT_DIR$/viewengine/viewengine.iml" />
     </modules>
   </component>

@@ -1,0 +1,2 @@
+* Make the design
+* Look into the android xml parser (might use it to parse xml views from server)

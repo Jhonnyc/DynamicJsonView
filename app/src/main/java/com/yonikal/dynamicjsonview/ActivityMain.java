@@ -1,6 +1,6 @@
 package com.yonikal.dynamicjsonview;
 
-import static com.viewengine.STATS.LAYOUT;
+import static com.viewengine.old.constants.STATS.LAYOUT;
 
 import android.app.Activity;
 import android.os.Bundle;

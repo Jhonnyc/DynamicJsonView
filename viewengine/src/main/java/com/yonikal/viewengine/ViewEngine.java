@@ -10,7 +10,8 @@ public class ViewEngine {
     private static Application sContext;
     private static ViewEngine sInstance;
 
-    private ViewEngine() {}
+    private ViewEngine() {
+    }
 
     public void init(Application context) {
         sContext = context;
